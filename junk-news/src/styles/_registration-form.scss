@@ -1,0 +1,25 @@
+.login-page {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: transparentize(#000, 0.5);
+	z-index: 999;
+}
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: calc(100vh * 0.5);
+	width: calc(100vw * 0.2);
+	background: white;
+}
+body.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}

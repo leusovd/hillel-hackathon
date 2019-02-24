@@ -1,0 +1,15 @@
+.user-block {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.user-name {
+	padding-right: 20px;
+}
+.user-avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}

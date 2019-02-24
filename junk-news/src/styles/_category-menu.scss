@@ -1,0 +1,32 @@
+.category-menu {
+	position: relative;
+	z-index: 1;	
+	&__list {
+		position: absolute;
+		display: none;
+		margin: 0;
+		padding: 0;
+		color: #417505;
+		background: white;
+		text-align: center;
+		z-index: 999;
+		list-style-type: none;
+		li {
+			font-size: 36px;
+		}
+	}	
+}
+.category-menu__list.active {
+	display: block;
+}
+.menu__btn {
+	font-size: 36px;
+	color: #417505;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+	}
+}

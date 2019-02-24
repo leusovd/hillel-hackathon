@@ -1,0 +1,51 @@
+.user {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #417505;
+    position: relative;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
+    &-menu {
+				display: none;
+        font-size: 24px;
+        background-color: #ffffff;
+				position: absolute;
+				list-style-type: none;
+        top: 55px;
+        right: 0px;
+				z-index: 10;
+				width: 200px;
+				padding: 10px;				
+				border: 1px solid #417505;
+
+		
+        
+
+        &__item {
+						width: 100%;
+						cursor: pointer;
+						&:hover {
+							color: lighten(green, 5%);
+						}
+
+            &:first-child {
+                border-radius: 15px 0 0 0;
+            }
+
+            &:last-child {
+                border-radius: 0 0 0 15px;
+            }
+        }
+    }
+}
+
+.user-menu.active {
+	display: block;
+}
